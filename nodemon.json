@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "src/index.ts",
+    "src/lib",
+    "src/middleware",
+    "src/models",
+    "src/routes"
+  ],
+  "ext": "ts",
+  "ignore": [
+    "src/**/*.test.ts"
+  ],
+  "exec": "tsx src/index.ts"
+}

@@ -51,24 +51,23 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "WickWick Blog",
-    description: "Personal blog built with Jekyll, migrating to React + TypeScript. Writing about software engineering, learnings, and tech opinions.",
-    tags: ["React", "TypeScript", "GitHub Pages"],
+    name: "MERN Blog CMS",
+    description: "Full-stack blog CMS starter that connects MongoDB, Express, React, admin CRUD, and public blog APIs. This is the foundation for powering the portfolio blog section with real data.",
+    tags: ["MongoDB", "Express", "React", "Node.js", "CMS"],
     github: "https://github.com/wickwickthedog/wickwickthedog.github.io",
-    live: "https://wickwickthedog.github.io",
     featured: true,
   },
   {
-    name: "Portfolio v2",
-    description: "This site! Built from scratch with React, TypeScript, Tailwind CSS, and deployed on Netlify. Fully open source.",
-    tags: ["React", "TypeScript", "Tailwind", "Netlify"],
+    name: "REST API with Swagger",
+    description: "Standalone backend showcase focused on clean REST contracts, request validation, consistent errors, health checks, and Swagger/OpenAPI documentation.",
+    tags: ["Node.js", "Express", "OpenAPI", "Swagger", "Zod"],
     github: "https://github.com/wickwickthedog",
     featured: true,
   },
   {
-    name: "Project Three",
-    description: "Add your next project here. Edit src/data/content.ts to update everything!",
-    tags: ["Node.js", "PostgreSQL", "Docker"],
+    name: "AI Blog Assistant",
+    description: "AI-powered writing helper that turns rough notes into title ideas, outlines, tags, and draft intros while keeping API keys safely behind a backend endpoint.",
+    tags: ["AI", "Express", "React", "TypeScript", "Product UX"],
     featured: true,
   },
 ];
@@ -115,25 +114,25 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
-    title: "Why I'm learning TypeScript in 2025",
-    excerpt: "Static types aren't just for Java devs. Here's why TypeScript changed how I think about code quality.",
+    title: "Build log: MERN Blog CMS",
+    excerpt: "The first milestone connects MongoDB, Express, React, admin CRUD, and public blog APIs into one production-shaped project.",
     date: "Apr 2025",
     url: "https://wickwickthedog.github.io",
-    tag: "TypeScript",
+    tag: "MERN",
   },
   {
-    title: "Building my portfolio from scratch",
-    excerpt: "Ditching Jekyll for React + Vite + Tailwind. What I learnt setting up a modern dev workflow.",
+    title: "Build log: REST API with Swagger",
+    excerpt: "A small standalone API can show backend maturity when the contract, validation, errors, and docs are clean.",
     date: "Mar 2025",
     url: "https://wickwickthedog.github.io",
-    tag: "React",
+    tag: "API",
   },
   {
-    title: "A dog-dad's guide to deep work",
-    excerpt: "How I learned to code productively with a very energetic shiba constantly demanding attention.",
+    title: "Build log: AI Blog Assistant",
+    excerpt: "AI becomes more impressive when it is treated as a real product feature with backend safety, useful state, and clear output.",
     date: "Feb 2025",
     url: "https://wickwickthedog.github.io",
-    tag: "Life",
+    tag: "AI",
   },
 ];
 

@@ -1,10 +1,10 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
-// import Skills from './components/Skills'
+import Skills from './components/Skills'
 // import Projects from './components/Projects'
 import Experience from './components/Experience'
-// import Blog from './components/Blog'
+import BlogPage from './components/BlogPage'
 // import Now from './components/Now'
 // import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -16,10 +16,10 @@ export default function App() {
       <main>
         <Hero />
         <About />
-        {/* <Skills /> */}
+        <Skills />
         {/* <Projects /> */}
         <Experience />
-        {/* <Blog /> */}
+        <BlogPage />
         {/* <Now /> */}
         {/* <Contact /> */}
       </main>

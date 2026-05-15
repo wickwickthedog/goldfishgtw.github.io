@@ -25,8 +25,10 @@ export default function Hero() {
     } else if (deleting && displayed.length > 0) {
       timeout = setTimeout(() => setDisplayed(displayed.slice(0, -1)), 40)
     } else if (deleting && displayed.length === 0) {
-      setDeleting(false)
-      setRoleIdx((roleIdx + 1) % roles.length)
+      timeout = setTimeout(() => {
+        setDeleting(false)
+        setRoleIdx((roleIdx + 1) % roles.length)
+      }, 0)
     }
     return () => clearTimeout(timeout)
   }, [displayed, deleting, roleIdx])
